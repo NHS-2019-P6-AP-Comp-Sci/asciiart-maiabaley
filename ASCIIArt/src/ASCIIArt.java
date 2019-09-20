@@ -17,11 +17,41 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void candleFlame() {
+		System.out.println("      \"   \"   \"");
 	}
+	public static void candleBase() {
+		System.out.println("     | | | | | |");
+	}
+	public static void candle() {
+		candleFlame();
+		candleBase();
+		candleBase();
+	}
+	public static void topCake() {
+		System.out.println("   /-|-|-|-|-|-|-\\");
+		System.out.println("  (  | | | | | |  )");
+	}
+	public static void bodyCake() {
+		System.out.println("  |\\_____________/|");
+		System.out.println("  |               |");
+	}
+	public static void baseCake() {
+		System.out.println("  \\_______________/");
+
+	}
+	public static void cake() {
+		topCake();
+		bodyCake();
+		bodyCake();
+		bodyCake();
+		baseCake();
+	}
+	public static void main(String[] args) {
+		System.out.println("Happy birthday! Make a wish!");
+		candle();
+		cake();
+	}
+	
+	
 }
